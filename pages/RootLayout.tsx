@@ -1,3 +1,5 @@
+import Header from "@/components/Header"
+import Layout from "@/components/layout"
 import Head from "next/head"
 
 export default function RootLayout({
@@ -12,7 +14,8 @@ export default function RootLayout({
         <meta name="description" content="미디어쿼리 이슈 해결방안" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <>{children}</>
+      <Header />
+      <Layout>{children}</Layout>
     </>
   )
 }
