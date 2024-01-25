@@ -19,12 +19,11 @@ a {
   text-decoration: none;
   background: none;
   border: none;
+}
+
+header a {
   font-family: "Noto Sans";
   font-size: 18px;
   font-weight: 600;
   padding: 10px 20px;
-}
-
-a:hover {
-  color: blue;
 }
